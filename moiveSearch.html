@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieWiki</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- <style type="text/css"> -->
+		
+<!-- </style> -->
+</head>
+
+<body>
+    <script src="script.js"></script>
+	<center>
+		<h1 ">MOVIE WIKI</h1>
+<input type="text" id="search" placeholder="search for movies" onchange="search()">
+<select name="Type" id="list" onchange="search()">
+        <option value="All">All</option>
+        <option value="movie">Movie</option>
+        <option value="series">Series</option>
+      </select>
+<div id="results" style="color: white;"></div>
+</center>
+</body>
+</html>
